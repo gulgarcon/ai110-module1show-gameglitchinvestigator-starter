@@ -34,6 +34,7 @@ def check_guess(guess, secret):
         return "Win", "🎉 Correct!"
 
     try:
+        # FIXME: Logic breaks here
         if guess > secret:
             return "Too High", "📈 Go HIGHER!"
         else:
@@ -48,6 +49,7 @@ def check_guess(guess, secret):
 
 
 def update_score(current_score: int, outcome: str, attempt_number: int):
+    # FIXME: Logic breaks here
     if outcome == "Win":
         points = 100 - 10 * (attempt_number + 1)
         if points < 10:
