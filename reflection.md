@@ -14,9 +14,10 @@ Document at least 3 bugs you found. Add rows as needed.
 
 | Input | Expected Behavior | Actual Behavior | Console Output / Error |
 |-------|-------------------|-----------------|------------------------|
-| | | | |
-| | | | |
-| | | | |
+|61     | (Hint stating to go lower)| Hint says to go higher | None |
+|Click new game once won | New game to start (new secret number) | No game started | None/You already won. Start a new game to play again|
+|Click new game once lost | New game to start (new secret number) | No game started | None/Game over. Start a new game to play again|
+|53 with a secret number of 53| Score in debug info to match the message| Debug score says 0 while message at bottom if screen says Final Score: 70| You won! The secret was 53. Final score: 70
 
 ---
 
