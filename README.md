@@ -32,21 +32,27 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📸 Demo Walkthrough
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
+In this example, the correct number is 27.
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1. Guess a number from 1 to 100 (default for normal difficulty) within 7 attempts. User guesses 10
+2. App returns "Go Higher"
+3. User guesses 30
+4. App returns "Go Lower"
+5. User guesses 27
+6. App returns "You Won! The secret was 27. Final score 35"
 
-**Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
 
 ## 🧪 Test Results
 
 ```
-# Paste your pytest output here, e.g.:
-# pytest tests/
-# ========================= X passed in 0.XXs =========================
+(codepathai) ahmad@Ahmads-MacBook-Pro-2 ai110-module1show-gameglitchinvestigator-starter % python -m pytest
+========================================================================= test session starts =========================================================================
+platform darwin -- Python 3.14.8, pytest-9.1.1, pluggy-1.6.0
+rootdir: /Users/ahmad/Documents/workspace/ai110-module1show-gameglitchinvestigator-starter
+plugins: anyio-4.15.1
+collected 4 items                                                                                                                                                     
+
+tests/test_game_logic.py .... 
 ```
 
 ## 🚀 Stretch Features
